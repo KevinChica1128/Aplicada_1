@@ -7,8 +7,8 @@
 % utilizar otro idioma, cambiar el comando "\documentclass{revcoles}" por el comando
 % "\documentclass[english]{revcoles}" o por "\documentclass[portuguese]{revcoles}"
 % **** --------------------------------------------------------------------------------
-\documentclass[13pt,report,oneside]{revcoles}
-\usepackage{anysize}
+\documentclass[11pt,report,oneside]{revcoles}
+\usepackage[top=2cm,bottom=1cm]{geometry}
 \labeldocument[
 university = Universidad del Valle,
 faculty = Facultad de Ingeniería,
@@ -47,6 +47,7 @@ year = 2018]
 % "secondtitle = " título del artículo traducido al idioma alterno
 % "shorttitle = " título corto (opcional) para el encabezado
 % **** --------------------------------------------------------------------------------
+\setlength{\parskip}{-3mm}
 \title[maintitle ={Validación de instrumentos},
        %secondtitle = Template for report in a course,
        shorttitle = Validación de instrumentos]
@@ -70,6 +71,16 @@ year = 2018]
         surname = Saavedra,
         code = Código: 1628466,
         email = cesar.saavedra@correounivalle.edu.co
+]
+\author[firstname = Bryan Steven,
+        surname = Martinez,
+        code = Código:,
+        email = 
+]
+\author[firstname = Daniel,
+        surname = Cano,
+        code = Código: ,
+        email = 
 ]
 \end{authors}
 % //// --------------------------------------------------------------------------------
@@ -137,6 +148,98 @@ de grado.tex}) and can be used as a guideline just replacing its contents. It is
 \section{Instrumento de medición}
 ~\\ Un instrumento de medición es un recurso que utiliza el investigador para registrar información o datos sobre las variables que tiene la investigación o el problema.
 ~\\Un instrumento de medición adecuado es aquel que registra datos observables que representan verdaderamente los conceptos o las variables que el investigador tiene en mente.
+~\\Las principales propiedades de una medición son la confiabilidad y la validez (Carmines y Zeller, 1987). De acuerdo con Babbie (2000), la confiabilidad
+se refiere a que un objeto de estudio medido repetidamente con el mismo instrumento siempre dará los mismos resultados; sin embargo, la confiabilidad no garantiza, ni es sinónimo de exactitud. Un instrumento puede ser confiable, pero no necesariamente válido para una población en particular, o en el peor
+de los casos, que el instrumento haya sido manipulado para obtener ciertos resultados.
+\section{Validación de un instrumento de medición}
+~\\En cuanto a la validez de un instrumento, la definición tradicional se refería a que un instrumento es válido si mide lo que dice medir. Sin embargo, Messick (1989,1996) argumenta que la definición tradicional es fragmentada e incompleta, por lo que, un instrumento será válido en cuanto que el grado de propiedad de las inferencias e interpretaciones producto de los resultados de un test incluya sus consecuencias sociales y éticas.
+~\\Es decir, Messick entiende la validez como un concepto unificado al cual le asigna un alto valor a cerca del cómo y para que los resultados del test son
+utilizados y sus consecuencias (por ejemplo como puede afectar un instrumento de medición en procesos de selección de personal, pruebas de admisión a
+centros educativos, test de conocimientos, etc.).
+
+~\\La validación de un instrumento no es un proceso acabado sino constante, al igual que todo proceso de la ciencia moderna, exige continuas comprobaciones
+empíricas. La validez no es un rasgo dicotómico, sino de grado, es decir que no se puede afirmar de manera concluyente que una prueba es válida, sino que
+se puede afirmar de la prueba presenta ciertos grados de validez para ciertos usos concretos y determinadas poblaciones (Alfaro y Montero, 2013).
+\section{Pasos necesarios para la correcta validación de un instrumento de medición}
+~\\Para llevar a cabo un proceso de validación adecuado sobre un instrumento de medición se deben realizar fundamentalmente los siguientes pasos:
+\begin{itemize}
+\item[\textbf{1.}]\textbf{Creación del constructo: Elaboración del cuestionario}
+~\\El instrumento de medición debe constar de 5 secciones fundamentalmente
+\begin{itemize}
+\item[1.]Datos de identificación: Donde se consigna el título del estudio, número de encuesta, código del encuestado, etc.
+\item[2.]Instrucción: Donde se le brinda al encuestado algunas indicaciones básicas para poder desarrollar el cuestionario.
+\item[3.]Datos generales: En esta sección se busca establecer información sociodemográfica del encuestado que se pueda correlacionar luego con las variables de estudio, e incluso su nombre si el cuestionario no requiere el anonimato.
+\item[4.]Datos específicos: En esta sección se pretende recabar información sobre las variables directamente relacionadas con el estudio.
+\item[5.]Agradecimiento: En esta última sección se suele finalizar el cuestionario con una fórmula de cortesía por el tiempo concedido.
+\end{itemize}
+~\\Algunas reglas generales para la generación de cuestionarios son:
+\begin{itemize}
+\item[-]Debe tener instrucciones claras.
+\item[-]Debe contener preguntas objetivas.
+\item[-]Debe tener secuencia lógica.
+\item[-]Los participantes deben tener conocimiento suficiente para contestarlo.
+\item[-]Debe estar redactado al nivel educativo del participante.
+\item[-]Cada pregunta debe medir un sólo objetivo.
+\item[-]Se deben proveer todas las posibles alternativas en cada pregunta.
+\item[-]No se deben de mezclar distintos tipos de preguntas en una misma sección.
+\item[-]Se deben evitar las preguntas largas.
+\item[-]Un buen instrumento de medición debe demostrar ser confiable y válido a la vez. (Hernández Sampieri)
+\begin{itemize}
+\item[]Confiabilidad: Es el grado en que su aplicación repetida al mismo sujeto u objeto produce iguales resultados. Grado en que un instrumento produce resultados consistentes y coherentes. Hernández Sampieri.
+\item[]Validez: Grado en que un instrumento mide la variable que pretende medir. Hernández Sampieri.
+\end{itemize}
+\end{itemize}
+
+\item[\textbf{2.}]\textbf{Validación Cualitativa: Validez interna y externa del instrumento. Validez de contenido, validez de criterio y validez de constructo. Juicio de expertos.}
+~\\La validez en términos generales, se refiere al grado en que un instrumento realmente mide la variable que pretende medir. Por ejemplo, un instrumento válido para medir la inteligencia debe medir la inteligencia y no la memoria.
+\begin{itemize}
+\item[\textbf{1.}]\textbf{Validez interna y externa}
+\begin{itemize}
+\item Para la validación usualmente se contará con un grupo de expertos, dicho grupo debe estar compuesto por personas conocedoras de la materia, entre los cuáles puede estar el evaluador, especialistas en la materia técnica concerniente, personal de salud, administradores, ingenieros, miembros de la facultad, etc.
+\item Con el grupo de expertos se busca mejorar el cuestionario para que este cumpla con el nivel del público objetivo y con el propósito y objetivos del estudio.
+\item Las recomendaciones del panel de expertos se orientan a facilitar la claridad de las preguntas, la relevancia de las mismas, si el número de preguntas es adecuado, o si el tiempo que toma contestarlo es o no apropiado.
+\item El panel de expertos sugerirá el cambio de preguntas, eliminación de algunas de ellas, uso apropiado de las palabras, o modificaciones en el formato del cuestionario. Dichas recomendaciones deben tenerse en cuenta en la modificación del cuestionario.
+\end{itemize}
+\item[\textbf{2.}]\textbf{Validez de contenido}
+~\\ Se refiere al grado en que un instrumento refleja un dominio específico de contenido de lo que se mide. Es el grado en que la medición representa al concepto medido. Por ejemplo, una prueba de conocimientos sobre las canciones de un grupo musical no deberá basarse solamente en sus 2 primeros discos, sino que debe incluir canciones de todos sus discos.
+\item[\textbf{3.}]\textbf{Validez de criterio}
+~\\ Establece la validez de un instrumento de medición comparándola con algún criterio externo. Este criterio es un estándar con el que se juzga la validez del instrumento. Por ejemplo, un investigador valida un examen sobre manejo de aviones, mostrando la exactitud con que el examen predice que tan bien un grupo de pilotos puede operar un aeroplano.
+\item[\textbf{4.}]\textbf{Validez del constructo}
+~\\Se refiere al grado en que una medición se relaciona consistentemente con otras mediciones de acuerdo con hipótesis derivadas teóricamente y que conciernen a los conceptos (o constructos) que están siendo medidos. La validez de constructo incluye tres etapas:
+\begin{itemize}
+\item[1.]Establece y especifica la relación teórica entre los conceptos (sobre la base del marco teórico)
+\item[2.]Correlacionan ambos conceptos y se analiza cuidadosamente la correlación.
+\item[3.]Interpreta la evidencia empírica de acuerdo a qué tanto clarifica la validez de constructo de una medición en particular.
+\end{itemize}
+\end{itemize}
+~\\La validez total de un instrumento se puede ver de la siguiente manera:
+\begin{center}
+Validez total$=$Validez de contenido $+$ Validez de criterio $+$ Validez de constructo
+\end{center}
+\item[\textbf{3.}]\textbf{Validación Cuantitativa: Proceso de recolección de datos, prueba piloto y evaluación de la confiabilidad del instrumento.}
+~\\Para la validación cuantitativa se debe evaluar la reproducibilidad (consistencia, confiabilidad, precisión) que consiste básicamente en que medida obtenemos los mismos resultados al aplicar nuevamente el instrumento.
+~\\Esta medida es evaluada por:
+\begin{itemize}
+\item Porcentaje de Concordancia (variables categóricas)
+\item Validez de criterio o predictiva o coeficiente Kappa (variables categóricas)
+\item Coeficiente de correlación intraclase (variables continuas)
+\end{itemize}
+~\\Permiten comparar:
+\begin{itemize}
+\item Mediciones repetidas hechas por un sujeto (variación intra-observador)
+\item Mediciones hechas por diferentes sujetos, con el mismo instrumento (variación ínter-observador)
+\item Mediciones en diferentes fracciones de una muestra (validación interna)
+\end{itemize}
+
+~\\ \textbf{Prueba Piloto:}
+\begin{itemize}
+\item[-]El proyecto piloto permite averiguar la consistencia o confiabilidad del cuestionario.
+\item[-]Para ello se utiliza un número de unas 20-25 personas que representen a los participantes del estudio.
+\item[-]Se recomienda mayor número de personas que ítems.
+\item[-]Algunos recomiendan 5 personas por ítems.
+\item[-]Idealmente, las personas seleccionadas para el proyecto piloto no deben participar en el estudio, aunque sí deben poseer características similares a las de los participantes.
+\end{itemize}
+\end{itemize}
 
 % //// --------------------------------------------------------------------------------
 % -------------------------------------------------------------------------------------
