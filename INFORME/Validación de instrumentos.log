@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 SEP 2018 14:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  26 SEP 2018 18:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -124,11 +124,6 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \c@tracingmulticols=\count91
-
-
-Package multicol Warning: May not work with the twocolumn option on input line 
-134.
-
 \mult@box=\box28
 \multicol@leftmargin=\dimen113
 \c@unbalance=\count92
@@ -174,7 +169,8 @@ Package multicol Warning: May not work with the twocolumn option on input line
 \mult@nat@firstbox=\box52
 \colbreak@box=\box53
 \mc@col@check@num=\count99
-) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -424,7 +420,7 @@ Package caption Info: End \AtBeginDocument code.
 * \hoffset=0.0pt
 * \voffset=-2.84526pt
 * \mag=1000
-* \@twocolumntrue
+* \@twocolumnfalse
 * \@twosidefalse
 * \@mparswitchfalse
 * \@reversemarginfalse
@@ -444,45 +440,31 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 53.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Overfull \hbox (3.70947pt too wide) in paragraph at lines 84--84
-[][]\T1/cmr/m/n/8 . E-mail: jho-nat-han.daniel.cano@correounivalle.edu.co| 
- []
 
+LaTeX Warning: Characters dropped after `\end{comment}' on input line 138.
 
-LaTeX Warning: Characters dropped after `\end{comment}' on input line 137.
-
-
-Underfull \vbox (badness 1442) has occurred while \output is active []
-
- [1
+[1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 2050) in paragraph at lines 172--173
-\T1/cmr/m/n/10 pre-ten-de re-ca-bar in-for-ma-ci so-bre
+[2] [3] [4]
+Overfull \hbox (404.02782pt too wide) in paragraph at lines 307--308
+[]\T1/cmr/m/n/10 http://www.udea.edu.co/wps/wcm/connect/udea/d76a0609-c62d-4dfb
+-83dc-5313c2aed2f6/METODOLOGﾍA+PARA+LA+VALIDACIﾓN+DE+UNA+ESCALA.pdf?MOD=AJPERES
+ 
  []
 
-[2]
-Underfull \hbox (badness 1221) in paragraph at lines 225--226
-[]\T1/cmr/m/n/10 Coeficiente de co-rre-la-ci in-tra-cla-se
- []
-
-[3]
-Underfull \hbox (badness 2237) in paragraph at lines 281--282
-[]\T1/cmr/m/n/10 Asegurar el ano-ni-ma-to del par-ti-ci-pan-te
- []
-
-[4] (./Validacioﾌ］ de instrumentos.aux
+[5] (./Validacioﾌ］ de instrumentos.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
  5752 strings out of 492995
  80796 string characters out of 6132704
- 166576 words of memory out of 5000000
+ 163566 words of memory out of 5000000
  9191 multiletter control sequences out of 15000+600000
  18900 words of font info for 57 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 43i,8n,40p,736b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,8n,40p,736b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 }</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -500,10 +482,10 @@ ve/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive
 7/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2017/
 texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2017/te
 xmf-dist/fonts/type1/public/cm-super/sfti0900.pfb>
-Output written on "Validacioﾌ］ de instrumentos.pdf" (4 pages, 219052 bytes).
+Output written on "Validacioﾌ］ de instrumentos.pdf" (5 pages, 222321 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 85 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
